@@ -9,7 +9,7 @@ Data I am going to use to solve the described problem will be:
               - Parks
               - Gyms
               - Bus/trains
- 
+ I will be collecting and exploring the different venues using my developer account and put them into a readable format (pandas dataframe).
  
 As I would like to now how to get the above information for each city I need to provide the exact location data, latitude and longitude and potentially scale down on the different neighourhoods of each city. I am concentrating on neighbourhoods near the city centres as this is where either of the workplaces would be. To do this I will ne working with the below:
 
@@ -28,4 +28,7 @@ I will be using k-means to retrieve this details:
 
 -> K-means:
               - Clustering details
+              
+
+At the end I will have two maps, one for each city, that clearly show clusters of the various venues that I have listed above and which will help me make a decision of which city will be the better place to live for me.
               
