@@ -1,0 +1,31 @@
+Data I am going to use to solve the described problem will be:
+
+-> Foursquare location data:
+       Foursquare provides the majority of information that is interesting for me such as:
+       
+              - Cafes/restaurants
+              - Shops
+              - Culture
+              - Parks
+              - Gyms
+              - Bus/trains
+ 
+ 
+As I would like to now how to get the above information for each city I need to provide the exact location data, latitude and longitude and potentially scale down on the different neighourhoods of each city. I am concentrating on neighbourhoods near the city centres as this is where either of the workplaces would be. To do this I will ne working with the below:
+
+-> geopy data for the geographical details of both Frankfurt and Brussels,
+-> Geojson file 'world-cities' provided by Geonames, to get exact geographical information.
+-> Wikipedia: List of neighbourhoods in each city.
+
+
+Since I am not familiar with either city, I would like to see where the venues are located, so I will need a map that I can work with to give me an idea of the location of each venue:
+
+-> Folium maps:
+              - Visualize the different venues in each city/neighbourhood
+ 
+I'd like to cluster the data that I have retrieved above, to give me an even better understanding of what I am about ot expect from the venues' location, e.g. is there a particular neighbourhood that has a large number of restaurants that interest me?
+I will be using k-means to retrieve this details:
+
+-> K-means:
+              - Clustering details
+              
